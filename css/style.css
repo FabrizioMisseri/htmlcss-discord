@@ -54,6 +54,11 @@ html{
     color: white;
 }
 
+.sfondo-viola{
+    background-color: #5B6EAE;
+    color: white;
+}
+
 
 /* HEADER */
 
@@ -153,8 +158,10 @@ main div.item h1{
 }
 
 .speciale-bottom h1 ,
-.speciale-bottom p {
-    margin: 1em 0;
+.speciale-bottom p,
+.speciale-bottom h2 {
+    margin: 1em 1em;
+    
 }
 
 .speciale-bottom img{
