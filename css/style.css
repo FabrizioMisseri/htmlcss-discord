@@ -1,0 +1,180 @@
+/* reset generale*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* COMMON */
+.flex-box{
+    display: flex;
+}
+
+.grow-1{
+    flex-grow: 1;
+}
+
+.order-negativo{
+    order: -1;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.container{
+    width: 70%;
+    max-width: 1200px;
+    padding: .25em;
+    margin: 0 auto;
+}
+
+* a{
+    text-decoration: none;
+}
+
+html{
+    font-family: 'Whitney', sans-serif;
+    font-size: 100%;
+}
+
+
+/* HEADER */
+
+    /* HEADER - NAV */
+header nav{
+    min-height: 70px;
+    /* debug */
+    background-color: lightblue;
+}
+
+header span{
+    /* debug */
+    background-color: orange;
+    border-style: dashed;
+    width: 20%;
+    min-height: 40px;
+    line-height: 40px;
+}
+
+header nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+header nav ul li{
+    margin: 0 .2em;
+    display: inline-block;
+}
+
+    /* HEADER-JUMBO */
+header .jumbo{
+    padding: 3em 0;
+    /* debug */
+    min-height: 400px;
+    background-color: blue;
+}
+
+header .jumbo div{
+    width: 50%;
+    margin: 0 auto;
+    /* debug */
+    min-height: 300px;
+    border-style: dashed;
+    background-color: rgb(143, 25, 113);
+}
+
+
+
+/* MAIN */
+
+main section{
+    padding: 1em 0
+    ;
+    /* debug */
+    min-height: 400px;
+}
+
+main section > div{
+    /* debug */
+    min-height: 300px;
+}
+
+main section:nth-child(even){
+    background-color: lightgray;
+}
+
+
+    /* PRIME TRE SEZIONI */
+main section .item{
+    width: 33%;
+    /* debug */
+    background-color: pink;
+    border-style: dashed;
+    min-height: 300px;
+}
+
+main section .item:first-child{
+    flex-grow: 1;
+    /* debug */
+    background-color: blue;
+}
+
+
+    /* SEZIONE SPECIALE */
+#item-speciale{
+    width: 100%;
+    /* debug */
+    background-color: green;
+    min-height: 400px;
+    border-style: dashed;
+}
+
+
+
+/* FOOTER */
+footer{
+    background-color: rgb(54, 53, 53);
+}
+
+    /* FOOTER TOP */
+
+footer section{
+    padding-top: 1em;
+    padding-bottom:2em;
+    /* debug */
+    border-bottom: 2px solid white;
+    min-height: 100px;
+}
+
+footer section div.item{
+    width: 15%;
+    /* debug */
+    min-height: 350px;
+    background-color: aquamarine;
+    border-style: dashed;
+}
+
+footer section div.item:first-child{
+    flex-grow: 1;
+    /* debug */
+    background-color: pink;
+}
+
+
+    /* FOOTER BOTTOM */
+.container-bottom{
+    min-height: 70px;
+    padding: 1.2em 0;
+    /* debug */
+    background-color: yellow;
+    border: dashed;
+}
+
+footer section .container span{
+    /* debug */
+    background-color: white;
+    border: dashed;
+    padding: .3em;
+}
