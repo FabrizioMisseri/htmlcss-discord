@@ -15,6 +15,14 @@ button{
     border: none;
 }
 
+ul{
+    list-style-type: none;
+}
+
+i{
+    color: white;
+}
+
 
 /* COMMON */
 html{
@@ -59,6 +67,12 @@ html{
     color: white;
 }
 
+.border-bottom{
+    border-bottom: 1px solid #5B6EAE;
+}
+
+
+
 
 /* HEADER */
 
@@ -84,7 +98,6 @@ header div span:last-child{
 }
 
 header nav ul{
-    list-style-type: none;
     text-align: center;
 }
 
@@ -170,46 +183,55 @@ main div.item h1{
 
 /* FOOTER */
 footer{
-    background-color: rgb(54, 53, 53);
+    background-color: #1C1F22;
 }
 
     /* FOOTER TOP */
 
 footer section{
     padding-top: 1em;
-    padding-bottom:2em;
-    /* debug */
-    border-bottom: 2px solid white;
-    min-height: 100px;
+    padding-bottom: 2em;
 }
 
 footer section div.item{
-    width: 15%;
-    /* debug */
-    min-height: 350px;
-    background-color: aquamarine;
-    border-style: dashed;
+    width: 17%;
+    padding-top: 3em;
 }
 
 footer section div.item:first-child{
     flex-grow: 1;
-    /* debug */
-    background-color: pink;
+}
+
+footer div.item h2 ,
+footer div.item h4{
+    color: #5B6EAE;
+}
+
+footer div.item h4{
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+footer div.item h2 ,
+footer div.item p ,
+footer div.item ul li {
+    margin: 1em 0;
+}
+
+footer div.item a{
+    color: white;
+}
+
+#logo-scritta{
+    display: inline-block;
+    margin: 0 .2em;
+    color: white;
+}
+
+#logo-ita{
+    width: 20px;
 }
 
 
     /* FOOTER BOTTOM */
-.container-bottom{
-    min-height: 70px;
-    padding: 1.2em 0;
-    /* debug */
-    background-color: yellow;
-    border: dashed;
-}
 
-footer section .container span{
-    /* debug */
-    background-color: white;
-    border: dashed;
-    padding: .3em;
-}
