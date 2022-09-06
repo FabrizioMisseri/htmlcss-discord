@@ -186,12 +186,14 @@ footer{
     background-color: #1C1F22;
 }
 
-    /* FOOTER TOP */
-
 footer section{
     padding-top: 1em;
-    padding-bottom: 2em;
+    padding-bottom: .5em;
 }
+
+
+    /* FOOTER TOP */
+
 
 footer section div.item{
     width: 17%;
@@ -232,6 +234,12 @@ footer div.item a{
     width: 20px;
 }
 
+.icone{
+    font-size: 1.5rem;
+}
 
     /* FOOTER BOTTOM */
+footer section:last-child{
+    padding-bottom: 2em;
+}
 
